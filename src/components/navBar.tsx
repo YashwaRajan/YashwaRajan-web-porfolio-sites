@@ -115,16 +115,21 @@ export const NavBar:any = () => {
             </div>
           </div>
           <ul className={`flex list-none m-0 p-0 transition-all duration-300 ${scrolled ? 'mx-auto' : ''}`}>
+             <li className="mx-[15px]">
+              <a href="#about" className="text-gray-800 text-base font-medium no-underline transition-colors duration-300 py-2.5 px-[15px] rounded-[25px] hover:text-[#646cff] hover:bg-[#646cff1a]">
+                Expertise
+              </a>
+            </li> <li className="mx-[15px]">
+              <a href="#about" className="text-gray-800 text-base font-medium no-underline transition-colors duration-300 py-2.5 px-[15px] rounded-[25px] hover:text-[#646cff] hover:bg-[#646cff1a]">
+                Experience
+              </a>
+            </li>
             <li className="mx-[15px]">
               <a href="#home" className="text-gray-800 text-base font-medium no-underline transition-colors duration-300 py-2.5 px-[15px] rounded-[25px] hover:text-[#646cff] hover:bg-[#646cff1a]">
-                Blogs
+                Articles
               </a>
             </li>
-            <li className="mx-[15px]">
-              <a href="#about" className="text-gray-800 text-base font-medium no-underline transition-colors duration-300 py-2.5 px-[15px] rounded-[25px] hover:text-[#646cff] hover:bg-[#646cff1a]">
-                Work
-              </a>
-            </li>
+           
             <li className="mx-[15px]">
               <a href="#services" className="text-gray-800 text-base font-medium no-underline transition-colors duration-300 py-2.5 px-[15px] rounded-[25px] hover:text-[#646cff] hover:bg-[#646cff1a]">
                 Resume
